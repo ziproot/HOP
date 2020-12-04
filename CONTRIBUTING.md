@@ -11,6 +11,7 @@ Non examples include:
 * A security issue not yet advertised (such as adding RSA encrytion)
 * Adding something new, instead of fixing something old
 * Asking a question about something you don't get
+
 If you find a bug, label it with the "bugs" tag, as well as the "security" tag if the bug relates to security. Then, be sure to label it as follows:
 ``` 
 **Issue Description**
