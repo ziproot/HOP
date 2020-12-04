@@ -6,6 +6,7 @@ Some examples include:
 * An error or exception
 * A flaw in a security feature
 * Encoded messages not decoding properly
+
 Non examples include:
 * A security issue not yet advertised (such as adding RSA encrytion)
 * Adding something new, instead of fixing something old
