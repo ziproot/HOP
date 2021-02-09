@@ -19,6 +19,8 @@
       #Added several files, including .replit, CODE_OF_CONDUCT.md, CONTRIBUTING.md, README.md, and SECURITY.md
       #Moved input, print, and import statements outside functions
       #Added ability to choose on runtime encode or decode
+    #1.0.2.1:
+      #Made changes to show that the "optimize for Discord" option also supports Element/Matrix, IRC, Joplin, etc.
 
 import base64
 def decode(ciphertext, key):
@@ -141,11 +143,11 @@ def encode(plaintext, key):
   stepfour = str(stepthreeb)+"h"
   answer = False
   while answer == False:
-    discord = input("Optimize for discord? y or n: ")
-    if(discord=="y"):
+    mdsupport = input("Optimize for markdown supported services, like Discord, Element/Matrix, Joplin, or IRC? y or n: ")
+    if(mdsupport=="y"):
       answer = True
       stepfour = "```"+str(stepthreeb)+"h```"
-    elif(discord=="n"):
+    elif(mdsupport=="n"):
       answer = True
   output="Your encoded message: "+stepfour
   return output
