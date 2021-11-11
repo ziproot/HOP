@@ -18,7 +18,7 @@ Questions are things that you are unsure about. When in doubt, mark it as a ques
 ## Enhancements
 Enhancements are things you want to improve. Be sure to label it based on what type of enhancement it is:  
 Security: This is an improvement to security you would like to see, such as RSA encryption.  
-QOL: This is an improvement to quality of life you would like to see, such as more lanugages as codes. If in doubt, mark it as QOL.  
+QOL: This is an improvement to quality of life you would like to see, such as more languages as codes. If in doubt, mark it as QOL.  
 Documentation: This is an improvement to documentation you would like to see.  
 Be sure to format the enhancement as dictated in the feature request template.
 # Pull Requests
